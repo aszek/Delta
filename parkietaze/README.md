@@ -75,4 +75,4 @@ Pokrycie prostokąta 22x27 klockami 8x2, 5x2, 1x7:
   * rzeczywiste nieujemne,
   * w przedziale [0,1].
 
-  W każdym z tych przypadków brak rozwiązania będzie wciąż oznaczał brak rozwiązania dla problemu zerojedynkowego. Jak wyglądają certyfikaty dla tych relaksacji? Napisz program, który je znajduje.
+  W każdym z tych przypadków brak rozwiązania będzie wciąż oznaczał brak rozwiązania dla problemu zerojedynkowego. Jak wyglądają certyfikaty dla tych relaksacji? Jaka jest ich naturalna interpretacja w języku niezmienników/kolorowań? Napisz program, który je znajduje.
