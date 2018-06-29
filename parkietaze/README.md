@@ -2,7 +2,7 @@
 
 Kod żródłowy do artykułu o parkietażach znajduje się w pliku ``parkiet.py``.
 
-Aby uruchomić przykłady potrzebny jest python ze python ze standardowymi pakietami. Można na przykład uzyć dystrybucji Anaconda https://www.anaconda.com/download.
+Aby uruchomić przykłady potrzebny jest python ze standardowymi pakietami. Można na przykład użyć dystrybucji Anaconda https://www.anaconda.com/download.
 
 Następnie należy zainstalować pakiet ``cvxpy``. Instrukcje znajdują się pod adresem http://www.cvxpy.org/install/index.html. Zwykle powinno wystarczyć:
 
@@ -23,13 +23,13 @@ zależnie od środowiska.
 CVXPY jest pakietem do modelowania wypukłych i całkowitoliczbowych problemów optymalizacyjnych. W skrócie, możemy w nim wyrazić równania i nierówności liniowe w formie niemal identycznej ze sformułowaniem matematycznym. Na przykład wzór
 
 ```
-\sum_{i=a}^b x_i = 1
+\sum_{a \leq i < b} x_i = 1
 ```
 
 przyjmuje postać
 
 ```
-cvxpy.sum(x[a:b+1]) == 1
+cvxpy.sum(x[a:b]) == 1
 ```
 
 # Solver
