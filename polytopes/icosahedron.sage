@@ -22,7 +22,7 @@ def distsq(x,y):
     return sum(c^2 for c in x-y)
 
 # The polynomial equation corresponding to |AC|^2 - 3*|AB|^2 from the text
-f = distsq(A, C) - 3 * distsq(A,B)
+f = distsq(A, C) - 3 * distsq(A, B)
 
 # The equation for t as appearing in the text
 print(f)
